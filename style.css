@@ -1,0 +1,28 @@
+div {
+    border: 1px black solid;
+}
+.body, .header,.header-links,.header-logo, ul{
+    display: flex;
+}
+.body{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.header{
+    justify-content: space-around;
+    align-items: center;
+    width: 100vh;
+}
+.header-logo{
+    flex: 1;
+}
+.header-links{
+    flex: 3;
+    justify-self: space-around;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
