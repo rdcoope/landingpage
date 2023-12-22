@@ -21,12 +21,22 @@ ul{
     list-style-type: none;
     gap: 32px;
 }
+.header-logo{
+    font-size: 24px;
+    color: #f9Faf8;
+}
 
 /* hero */
 .hero{
     display: flex;
     background-color: #1f2937;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
     
+}
+.banner, .text{
+    flex: 2;
 }
 .banner{
     font-size: 48px;
@@ -39,4 +49,12 @@ ul{
     font-size: 18px;
     color: #e5e7eb;
 }
-
+.hero-image .container{
+    display: flex;
+    width: 300px;
+    height: 150px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+}
