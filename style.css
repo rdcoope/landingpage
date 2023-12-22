@@ -6,6 +6,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.body{
+    width: 100%;
+}
 
 /* header */
 .header{
@@ -31,21 +34,33 @@ ul{
     justify-content: space-around;
     color: white;
     padding: 10px;
-    
 }
-.banner, .text{
+.hero-text{
+    display: flex;
     flex: 2;
-}
-.banner{
+    justify-content: space-around;
+    align-items: center;
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
     margin: 0px;
     padding: 0px;
+
 }
-.text{
+.hero-text .container{
+    width: 50%;
+
+}
+.hero .text{
     font-size: 18px;
     color: #e5e7eb;
+    padding: 20px;
+    
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero-image .container{
     display: flex;
@@ -55,6 +70,11 @@ ul{
     background-color: #3882f6;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+    align-self: center;
+    justify-self: center;
+
+    
 }
 
 /* Information Card */
@@ -133,6 +153,7 @@ ul{
     background-color: #3882f6;
     width: 50%;
     margin: 20px;
+    padding-right: 10px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -152,10 +173,31 @@ ul{
     flex: 2;
     height: 150px;
     padding: 10px;
+    color:#e5e7eb;
+    font-size: 18px;
+   padding: 20px;
+
 
 }
 .call .text .content{
     font-size: 16px;
     margin: 5px;
     padding: 0;
+}
+
+/* Footer and buttons */
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #3882f6;
+    color:#f9Faf8;
+    border-radius: 10px;
+    height: 75px;
+    width: 150px;
 }
